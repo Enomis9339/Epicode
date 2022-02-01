@@ -1,0 +1,14 @@
+L'esercitazione settimanale richiede la progettazione (come di consueto su carta o tool di wireframe) e l'impaginazione del file "layout-grafico.png", utilizzando i seguenti file messi a disposizione
+1) immagini (cartella assets/images)
+2) File CSS di font awesome (assets/css/font-awesome.min.css)
+3) Font di Fontawesome (tutta la cartella "fonts" presente dentro "assets")
+
+Va realizzata e verificata l'impaginazione per i soli dispositivi mobile, attivando da console la simulazione layout fino a 480px massimo (i contenitori principali NON hanno dimensione orizzontale)
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400">
+<link rel="stylesheet" href="assets/css/stile.css" type="text/css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+
+Font: Montserrat per i titoli, Open Sans per il resto
+Colori: #25a2c3 (azzurro), #e22d0e (rosso)
+Icone footer: <span class="icon fa-phone"></span><span class="icon fa-envelope"></span><span class="icon fa-map-marker"></span>
