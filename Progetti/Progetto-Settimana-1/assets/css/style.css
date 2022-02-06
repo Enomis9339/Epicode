@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter ;
+}
+
+body > h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+}
+
+header > img {
+    text-align: center;
+    padding: 1em 3em;
+    width: 20%;
+    height: 20%;
+}
+
+h1, h3 {
+    color:  #25a2c3;
+}
+
+h1, h2, h3 {
+    margin: 1em 0em;
+}
+
+p {
+    padding: 0em 1em;
+}
+
+/* MAIN */
+
+
+/* SECTION 1 */
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1.5em 0em;
+}
+/* 
+main, aside, footer {
+    padding: 1em 2em;
+} */
+
+/*LET'S GO*/
+
+main > section:nth-child(1) > a {
+    background-color: #e22d0e;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    margin: 1.5em 0em;
+    display: inline-block;
+    font-weight: bold;
+}
+
+main > section:nth-child(1) a:hover {
+
+    background-color:red
+}
+
+
+
+
+/* SECTION 2 */
+
+main section:nth-child(2) img {
+ border-radius: 50%;
+}
+
+/* SECTION 3 epicode warranties*/
+
+main section:nth-child(3) {
+    background-color: #e22d0e;
+    color: white;
+    padding: 1em 0em;
+    margin: 1em 0em;
+   }
+
+main section:nth-child(3)  p {
+    padding: 0.5em 0em;
+    color: #dfdddd;
+}
+
+main section:nth-child(3) h5 {
+    margin-top: 2em;
+    font-weight: normal;
+}
+
+main section:nth-child(3) > p:nth-child(2) {
+    font-style: italic;
+}
+
+
+ 
+
+/* ASIDE */
+
+aside > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+aside > div {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 0.2em;
+    margin: 1.5em 1.5em;
+}
+
+aside > div p {
+    margin-bottom: 1em;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+}
+
+span {
+    color: #e22d0e;
+    margin-right: 0.5em;
+}
+
+footer h2 {
+    padding: 0.5em 0em ;
+}
+
+footer p {
+    color: #dfdddd;
+    font-size: 1rem;
+}
+
+hr {
+    color: #dfdddd;
+    margin: 1em 1.5em 0em;
+}
+
+small {
+    padding: 2em 1em;
+    color: #dfdddd;
+    display: inline-block;
+    padding-bottom: 1em;
+    font-size: 0.9rem;
+}
+
+.icon:before {
+    font-family: FontAwesome;
+}
+
+footer a {
+    text-decoration: none;
+}

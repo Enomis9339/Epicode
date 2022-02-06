@@ -1,0 +1,154 @@
+
+html {
+    font-size: 1.2rem;
+}
+/* --------------------------- BODY ------------------------- */
+
+/* --------------------------- HEADER ------------------------- */
+.page-logo {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+header  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+/* --------------------------- NAV ------------------------- */
+nav,footer {
+    background-color: #303030;
+}
+
+ul {
+    margin: 0em 0em;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0.6em 0.6em;
+}
+
+.navbutton:hover {
+    color: yellow;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------------------- MAIN ------------------------- */
+article div:first-child h2 {
+    font-size: 2.5rem;
+}
+
+main {
+    background-image: url(../img/bg-carta.png);
+    background-repeat: repeat-y;
+    padding: 0.9em 0.9em;
+    background-size: 10%;
+}
+/* Unico attributto per i background background: url() repeat y -200px */
+
+.tool {
+    color: red;
+}
+
+.newsletter {
+    background-color: lightgrey;
+}
+
+fieldset > input:first-child {
+    width: 30%;
+}
+
+.signup {
+    background-color: rgb(27, 71, 122);
+    width: 10%;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+#owner {
+    font-weight: bold;
+    color: black;
+}
+.owner_date {
+    font-style: italic;
+    color: lightgrey;
+    margin-left: 3%;
+}
+
+/* --------------------------- ARTICLE ------------------------- */
+/* --------------------------- TABLE ------------------------- */
+table {
+    background-color: rgb(27, 71, 122);
+    border-radius: 10px;
+    padding: 0.3em 0.9em;
+    margin-top: 2em;
+}
+
+thead,tbody {
+    text-align: center;
+}
+thead td {
+    color: yellow;
+}
+tbody td {
+    color: white;
+}
+
+td {
+    padding: 0.3em 0.9em;
+}
+
+.caption {
+    display: none;
+}
+
+.newsletter-caption {
+    margin-left: 2%;
+    font-style: italic;
+    padding: 0.5em 0em;
+}
+/* --------------------------- ASIDE ------------------------- */
+
+aside h5,p {
+    margin:0;
+    padding: 0.3em 0em;
+    font-size: 1rem;
+}
+
+aside div p:last-child {
+    padding: 0.5em 0;
+    font-size: 0.8rem;
+}
+
+aside div {
+    background-color: #baf8f8;
+    border: 2px solid grey;
+    box-shadow: 0 0 3px #000000;
+    border-radius: 5px;
+    margin: 0.3em 0em;
+    padding: 0.5em 0.3em;
+}
+
+
+/* --------------------------- FOOTER ------------------------- */
+
+footer {
+    padding: 0.5em 0em;
+}
+footer p {
+    color: lightgrey;
+    text-align: center;
+    padding: 0.3em 0.3em;
+}
+
+.e-mail {
+    color: lightgrey;
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: red; }
+  body span {
+    /*Richiamo gli <span> all'interno del body e gli appico le proprietà direttamente*/
+    color: blue; }
+
+a {
+  color: red; }
+
+/*for=Esecuzione ciclica*/
+/* $i variabile*/
+p.testo1 {
+  padding: 22px; }
+
+/*Usiamo "#" per concatenare una variabile ad una classe*/
+/*for=Esecuzione ciclica*/
+/* $i variabile*/
+p.testo2 {
+  padding: 24px; }
+
+/*Usiamo "#" per concatenare una variabile ad una classe*/
+/*for=Esecuzione ciclica*/
+/* $i variabile*/
+p.testo3 {
+  padding: 26px; }
+
+/*Usiamo "#" per concatenare una variabile ad una classe*/
+/*for=Esecuzione ciclica*/
+/* $i variabile*/
+p.testo4 {
+  padding: 28px; }
+
+/*Usiamo "#" per concatenare una variabile ad una classe*/
+/*for=Esecuzione ciclica*/
+/* $i variabile*/
+p.testo5 {
+  padding: 30px; }
+
+/*Usiamo "#" per concatenare una variabile ad una classe*/

@@ -1,0 +1,24 @@
+@import "_var";
+@mixin evidentButton {
+    border: 3px solid red;     /*Usare " @include "nome mixin" " per richiamare il gruppo di proprietà all'interno del CSS*/
+    border-radius: 10px;
+    font-weight:bold;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: $colorePrimario;
+    span {                           /*Richiamo gli <span> all'interno del body e gli appico le proprietà direttamente*/
+        color: blue;
+    }
+}
+
+a {
+    color: $colorePrimario;
+    $coloreSecondario : red;
+}
+
+@for $i from 1 through 5 {                    /*for=Esecuzione ciclica*/    /* $i variabile*/
+    p.testo#{$i} {padding: 20px + $i * 2 ;}   /*Usiamo "#" per concatenare una variabile ad una classe*/
+}                                               
+

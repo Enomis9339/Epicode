@@ -1,0 +1,71 @@
+.price-card-1 {
+    background: cyan;
+    padding: 5rem 3rem;
+    text-align: center;
+    transform: skew(-10deg, 0);
+}
+
+.price-card-2 {
+    background: rgb(255, 89, 89);
+    padding: 5rem 3rem;
+    text-align: center;
+    transform: skew(-10deg, 0);
+}
+
+.price-card-3 {
+    background: rgb(215, 224, 131);
+    padding: 5rem 3rem;
+    text-align: center;
+    transform: skew(-10deg, 0);
+}
+
+ .immagine {
+    max-width:80%;
+    text-align: center;
+}
+
+aside li:before {
+    font-family: FontAwesome;
+    content: "\F00C";
+    color: orangered;
+    padding-right: 0.5em;
+}
+
+main {
+    flex-direction: column;
+}
+main div {
+    text-align: center;
+}
+
+aside {
+    flex-direction: column;
+    max-width: 100%;
+}
+
+body nav, main, aside, footer {
+    padding: 0 5em;
+}
+
+@media screen and (min-width: 1200px){
+    html {
+        font-size: 1.1rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+
+    aside div {
+        flex-basis: 30%;
+    }
+
+}

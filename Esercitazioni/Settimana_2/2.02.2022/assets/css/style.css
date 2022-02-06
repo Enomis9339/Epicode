@@ -1,0 +1,159 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+header {
+    background-color: lavender ;
+    border-bottom: 5px solid midnightblue;
+    
+}
+
+header > h1,h2 {
+    text-align: center;
+}
+
+header > h2 {
+    text-transform: uppercase;
+    color: midnightblue;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+blockquote {
+    text-align: right;
+    font-style: italic;
+}
+
+span .academy {
+    font-style: italic;
+}
+
+main {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+
+section {
+    padding-top: 15px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+.highlight {
+    color: midnightblue;
+    
+}
+
+.backgroundcolor1 {
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+.backgroundcolor2 {
+    background: lemonchiffon;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5%;
+}
+
+small {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+section h3:first-child {
+    text-align: center;
+}
+
+.button {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .button {
+        display: block;
+        border: 1px solid black;
+        background-color: purple;
+        color: white;
+        text-align: center;
+    }
+    ul {
+        padding:0;
+    }
+    li {
+        text-decoration: none;
+        list-style-type: none;
+        transition-property: transform;
+        margin: 0.3em 0;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+    .box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .backgroundcolor1, .backgroundcolor2 {
+        width: 45%;
+        padding: 0 0.8em;
+        margin-bottom: 1em;
+    }
+
+    @keyframes showpercentage {
+        from {opacity:0; width:0}
+        to {opacity:1; width:100}
+
+    }
+    .button:hover + ul li {
+        animation-name: showpercentage;
+        animation-duration: 2s;
+        display: flex;
+        justify-content: space-between;
+        background-color: #66ccff;
+        border-radius: 2px;
+        margin: 0.3em 0;        
+    }
+
+    li:nth-child(1) {
+        width: 100%;
+        /* background-color: #66ccff; */
+    }
+
+    li:nth-child(2) {
+        width: 100%;
+        /* background-color: #66ccff; */
+    }
+
+    li:nth-child(3) {
+        width: 80%;
+        /* background-color: #66ccff; */
+    }
+
+    li:nth-child(4) {
+        width: 60%;
+        /* background-color: #66ccff; */
+    }
+
+}
